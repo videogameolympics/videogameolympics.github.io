@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Video Game Olympics</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/dlmenu.css" />
+		<script src="js/modernizr.custom.js"></script>
+		
+		<link href="assets/css/soon.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<div class="menu-area">
+			<div id="dl-menu" class="dl-menuwrapper">
+						<button class="dl-trigger">Open Menu</button>
+						<ul class="dl-menu">
+							<li>
+								<a href="#intro">Home</a>
+							</li>
+							<li><a href="#howItWorks">How it Works</a></li>
+							<li><a href="#eventDetails">Event Details</a></li>
+							<li><a href="#downloads">Downloads</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li>
+								<a href="#">Sub Menu</a>
+								<ul class="dl-submenu">
+									<li><a href="#">Sub menu</a></li>
+									<li><a href="#">Sub menu</a></li>
+								</ul>
+							</li>
+							<div style="text-center">
+								<a href="" class="btn btn-lg"><i class="fa fa-facebook fa-fw"></i></a>
+								<a href="" class="btn btn-lg"><i class="fa fa-instagram fa-fw"></i></a>
+								<a href="" class="btn btn-lg"><i class="fa fa-twitter fa-fw"></i></a>
+							</div>
+						</ul>
+					</div><!-- /dl-menuwrapper -->
+	</div>
+		
+
+    <!-- Intro Header -->
+    <div class="intro" id="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">The Video Game Olympics</h1>
+                        <!-- START TIMER -->
+            <div id="timer" data-animated="FadeIn">
+                <p id="message"></p>
+                <div id="days" class="timer_box"></div>
+                <div id="hours" class="timer_box"></div>
+                <div id="minutes" class="timer_box"></div>
+                <div id="seconds" class="timer_box"></div>
+            </div>
+            <!-- END TIMER -->
+                        <a href="#howItWorks" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="howItWorks" class="content-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">					
+					<h2>How it Works</h2>
+					<ul class="nav nav-pills nav-justified">
+						<li class="active"><a data-toggle="pill" href="#stations">Round 1<br><small>Stations</small></a></li>
+						<li><a data-toggle="pill" href="#bracket">Round 2<br><small>Bracket</small></a></li>
+						<li><a data-toggle="pill" href="#theFinals">Round 3<br><small>The Finals</small></a></li>    
+					</ul>
+				</div><!--/lg-12-->
+			</div><!--/NAV PILLS-->
+			<br>
+			<div class="row">
+				<div class="col-lg-12">					
+					<div class="tab-content">
+						<div id="stations" class="tab-pane fade in active">
+							<div class="col-lg-6">
+								<h3>Stations</h3>
+								<!--STATIONS RULES-->
+								<ul class="list-unstyled">
+									<li>1. You will be assigned to either A group or B group upon ticket purchase.</li>
+									<li>2. Later, you will be assigned to 1 of 10 stations.</li>
+									<li>3. Each station will have 2 lines, marked A or B. Stand in the line that corresponds to your assigned group.</li>
+									<li>4. Wait until it is your turn to play the game at your station, then play the game.</li>
+									<li>5. If you win, you will receive a punch in your game slip.</li>
+									<li>6. Rotate to the closest game station.</li>
+									<ul>
+										<li>Group A rotates left.</li>
+										<li>Group B rotates right.</li>
+									</ul>
+									<li>7. Continue rotating and playing games until you have played 5 games.</li>
+								</ul>
+								<!--/STATION RULES-->
+							</div>
+							<div class="col-lg-6">
+								<!--STATION RULES VISULIZATION-->
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<!--1. <div class="carousel-content">
+												<div class="col-lg-12 text-center" style="font-size:210px;">
+													<strong style="color: red;">A</strong> <strong style="color: blue;">B</strong>
+												</div>
+											</div>-->
+											
+										</div>
+    
+									</div>
+
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div><!--/STATIONS CAROUSEL-->							
+							</div><!--/col-lg-6-->
+						</div><!--/STATIONS-->
+						
+					<div id="bracket" class="tab-pane fade">
+						<div class="col-lg-6">
+								<!--STATION RULES VISULIZATION-->
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<!--1. <div class="carousel-content">
+												<div class="col-lg-12 text-center" style="font-size:210px;">
+													<strong style="color: red;">A</strong> <strong style="color: blue;">B</strong>
+												</div>
+											</div>-->
+											
+										</div>
+    
+									</div>
+
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div><!--/STATIONS CAROUSEL-->							
+							</div><!--/col-lg-6-->
+						<div class="col-lg-6">
+						<h3>Bracket</h3>
+						<ul class="list-unstyled">
+							<li>1. Look at your Game Slip to determine your status in the upcoming Bracket Round.</li>
+							<ul>
+								<li>If you have less than 3 wins from the Stations Round, you are out of the Video Game Olympics.</li>
+								<li>If you have 3 or more wins from the Stations Round, you may be given a "by" with participants with the most wins getting the priority.</li>
+								<li><strong>Remember, the more wins you have from the Bracket Round, the higher the chance you get to skip a round to get closer to the Finals.</strong></li>
+							</ul>
+							<li>2. Play in the bracket until you lose. From here on out, if you lose a game you are out of the VGO's.</li>
+						</ul>
+						</div>
+					</div>
+					<div id="theFinals" class="tab-pane fade">
+						<h3>The Finals</h3>
+						<ul class="list-unstyled">
+							<li>1. Losers of the Semi-Final Round play for 3rd.</li>
+							<li>2. Winners of the Semi-Final Round play for 1st and 2nd place.</li>
+					</div>
+				</div><!--/col-lg-6-->				
+						
+				
+			</div><!--/col-->
+		</div><!--/container-->
+    </section>
+
+    <!-- Event Details Section -->
+    <section id="eventDetails" class="content-section">
+        <div class="download-section">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Event Details</h2>
+					</div>
+				</div>
+				<div class="row">					
+					<div class="col-lg-6" style="font-size: 120%;">	
+						<br>
+						<dl class="dl-horizontal">
+							<dt>Admission</dt>
+								<dd>$5</dd>							
+							<dt>Date</dt>
+								<dd>Saturday, November 7, 2015</dd>							
+							<dt>Time</dt>
+								<dd>12:00 PM - 8:00 PM</dd>							
+							<dt>Location</dt>
+								<dd><a href="http://tenwestcenter.org/">Ten West Center for the Arts</a>
+									<br>
+									10 W Church St 
+									<br>
+									Fortville, IN, 46040</dd>
+									
+									<br>
+									<br>
+									<dd>Ten West is highlighted in <strong style="color:#62AF44;">GREEN</strong></dd>
+									<dd>Parking is highlighted in <strong style="color:#DB4436">RED</strong></dd>
+						</dl>						
+					</div>					
+					<div class="col-lg-6">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=zqomdS6gooWM.ki9fSPiz3zuw" width="100%" height="480"></iframe>
+					</div>
+					
+				</div><!--/row-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Downloads</h2>
+                <p>Please note that you must have a signed waiver in order to participate in the Video Game Olympics. If you're under 18, a parent or legal guardian will need to sign as well.                
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li> <!--INSERT WAIVER PDF FILE PATH BELOW-->
+                        <a href="" class="btn btn-default btn-lg" download><span class="network-name">Waiver</span></a>
+                    </li>
+                    <li>  <!--INSERT list of games PDF FILE PATH BELOW-->
+                        <a href="" class="btn btn-default btn-lg" download><span class="network-name">List of Games</span></a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+		<div class="download-section">
+		<div class="row">
+			 
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Info</h2>
+                <p>Feel free to contact us if you have any questions or concerns.</p>
+                <p><a href="mailto:contact@video-game-olympics.com">contact@video-game-olympics.com</a>
+                </p>				
+			</div>
+			</div>
+		</div>	
+	</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; Video Game Olympics 2015</p>
+        </div>
+    </footer>
+	
+	
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/jquery.smooth-scroll.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>	
+	<script src="js/jquery.dlmenu.js"></script>	
+	<script src="js/wow.min.js"></script>	
+	<script src="js/custom.js"></script>
+	
+	<script src="assets/js/soon/plugins.js"></script>
+    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/soon/custom.js"></script>
+	
+	
+
+</body>
+
+</html>
