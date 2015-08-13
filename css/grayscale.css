@@ -6,7 +6,7 @@
 
  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
 	color:#2B2B2B;
-	background-color:#45B29D;
+	background-color:#EFC94C;
  }
 body {
     width: 100%;
@@ -59,7 +59,7 @@ a {
 .nav>li>a:hover{
     text-decoration: none;
     background-color: #7E7E7E;
-	color: #2B2B2B;
+	color: rgb(239,201,76,.1);
 }
 
 .light {
