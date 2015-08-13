@@ -58,7 +58,7 @@ a {
 .nav>li>a:focus,
 .nav>li>a:hover{
     text-decoration: none;
-    color: #7E7E7E;
+    background-color: #7E7E7E;
 }
 
 .light {
