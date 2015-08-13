@@ -51,7 +51,7 @@
 }
 
 .dl-menuwrapper button {
-	background: #222;
+	background: #45B29D;
 	border: none;
 	width: 48px;
 	height: 45px;
@@ -73,12 +73,12 @@
 	position: absolute;
 	width: 48%;
 	height: 2px;
-	background: #fff;
+	background: #2B2B2B;
 	top: 10px;
 	left: 24%;
 	box-shadow: 
-		0 10px 0 #fff, 
-		0 20px 0 #fff;
+		0 10px 0 #2B2B2B, 
+		0 20px 0 #2B2B2B;
 }
 
 .dl-menuwrapper ul {
@@ -101,7 +101,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 300;
-	color: #fff;
+	color: #2B2B2B;
 	outline: none;
 }
 
