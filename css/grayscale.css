@@ -59,6 +59,7 @@ a {
 .nav>li>a:hover{
     text-decoration: none;
     background-color: #7E7E7E;
+	color: #2B2B2B;
 }
 
 .light {
