@@ -151,7 +151,7 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #2B2B2B;
     background: url(../img/SiteBG.svg) no-repeat top center scroll;
     background-color: #2B2B2B;
     -webkit-background-size: cover;
@@ -193,10 +193,10 @@ a {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #2B2B2B;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #2B2B2B;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -206,8 +206,8 @@ a {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+    color: #2B2B2B;
+    background: rgba(43,43,43,.1);
 }
 
 .btn-circle i.animated {
